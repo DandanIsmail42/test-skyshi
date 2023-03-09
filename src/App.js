@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/todo-list/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/detail/:id" element={<ItemList />} />
       </Routes>
     </BrowserRouter>
